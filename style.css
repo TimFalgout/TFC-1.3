@@ -212,133 +212,144 @@ section {
 
 /* Before you go CSS */
 .feature-icon {
-    background-color: #27374d;
+  background-color: #27374d;
 }
 
 /* footer Index */
 .footer-border {
-    border-top: 1px solid #9db2bf;
+  border-top: 1px solid #9db2bf;
 }
 
 .facebook-icon {
-    background-color: #27374d;
+  background-color: #27374d;
 }
 
 /* Services Page */
 .top-services {
-    margin-top: 100px;
-    color: #9DB2BF;
-    background-color: #27374D;
-    border-radius: 20px;
+  margin-top: 100px;
+  color: #9DB2BF;
+  background-color: #27374D;
+  border-radius: 20px;
 }
 
 @media (max-width: 995px) {
-    .top-services {
-        margin-top: 180px;
-    }
+  .top-services {
+    margin-top: 180px;
+  }
 }
 
 @media (max-width: 430px) {
-    .top-services {
-        margin-top: 220px;
-    }
+  .top-services {
+    margin-top: 220px;
+  }
 }
 
 .card {
-    border-radius: 10px;
+  border-radius: 10px;
 }
 
 .card-body {
-    display: flex;
-    background-color: #9DB2BF;
-    min-height: 100px;
-    border-radius: 0 0 10px 10px;
+  display: flex;
+  background-color: #9DB2BF;
+  min-height: 100px;
+  border-radius: 0 0 10px 10px;
 }
 
 .card img {
-    border-radius: 10px 10px 0 0;
-    height: 280px;
-    width: 100%;
-    object-fit: cover;
+  border-radius: 10px 10px 0 0;
+  height: 280px;
+  width: 100%;
+  object-fit: cover;
 }
 
 .card-text {
-    color: #27374D;
+  color: #27374D;
 }
 
 /* Contact Section */
 .card-contact {
-    background-color: #27374D;
+  background-color: #27374D;
 }
 
 #custom-cards-contact {
-    margin-top: 100px;
+  margin-top: 100px;
 }
 
 #custom-cards-contact h2 {
-    color: #27374D;
-    border-bottom: 1px solid #9db2bf;
+  color: #27374D;
+  border-bottom: 1px solid #9db2bf;
 }
 
 .contact-button {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .contact-card-text {
-    color: #9DB2BF;
+  color: #9DB2BF;
 }
 
-.contact-card-icon svg{
-    color: #9DB2BF;
+.contact-card-icon svg {
+  color: #9DB2BF;
 }
 
 .text-email-phone {
-    color: #9DB2BF;
-    font-size: 1.3rem;
+  color: #9DB2BF;
+  font-size: 1.3rem;
 }
 
 
 @media (max-width: 430px) {
-    #custom-cards-contact {
-        margin-top: 180px;
-    }
+  #custom-cards-contact {
+    margin-top: 180px;
+  }
 }
 
 @media (max-width: 915px) {
-    #custom-cards-contact {
-        margin-top: 180px;
-    }
+  #custom-cards-contact {
+    margin-top: 180px;
+  }
 }
 
 /* Gallery Section */
 .gallery-container-top {
-    margin-top: 140px;
-    color: #9DB2BF;
-    background-color: #27374D;
-    border-radius: 20px;
+  margin-top: 140px;
+  color: #9DB2BF;
+  background-color: #27374D;
+  border-radius: 20px;
+}
+
+.image-container {
+  margin-top: 20px;
+  color: #27374D;
 }
 
 .card-full-image {
-    position: relative;
-      overflow: hidden;
-      height: 380px;
+  position: relative;
+  overflow: hidden;
+  height: 380px;
+}
+
+.video-full-image {
+  position: relative;
+  overflow: hidden;
+  height: auto;
 }
 
 .card-full-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
 @media (max-width: 995px) {
-    .gallery-container-top {
-        margin-top: 220px;
-    }
+  .gallery-container-top {
+    margin-top: 220px;
+  }
 }
 
 @media (max-width: 430px) {
-    .gallery-container-top {
-        margin-top: 240px;
-    }
+  .gallery-container-top {
+    margin-top: 240px;
+  }
 }
